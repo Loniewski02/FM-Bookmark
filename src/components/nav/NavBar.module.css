@@ -1,0 +1,18 @@
+.nav {
+	padding: 2.5em 2em;
+}
+
+.nav__wrapper {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.nav__logo {
+	width: 150px;
+	z-index: 1000;
+}
+
+.nav__logo.active {
+	content: url('/src/assets/logo-bookmark-active.svg');
+}

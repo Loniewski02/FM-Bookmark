@@ -1,0 +1,163 @@
+.header {
+	padding: 4rem 3.2rem 7rem;
+	overflow: hidden;
+}
+
+.header__wrapper {
+	position: relative;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.header__hero {
+	margin-bottom: 3em;
+}
+
+.header__hero img {
+	display: block;
+	width: 100%;
+	max-width: 308px;
+}
+
+.header__info {
+	text-align: center;
+}
+
+.header__info h1 {
+	color: var(--dark-blue);
+	font-size: 3rem;
+	font-weight: 500;
+	line-height: 133%;
+}
+
+.header__info p {
+	margin: 1.6rem 0 3.2rem;
+	color: var(--grey);
+	font-size: 1.5rem;
+	font-weight: 400;
+	line-height: 166%;
+}
+
+.header__info-actions {
+	display: flex;
+	justify-content: center;
+	gap: 14px;
+}
+
+.figure {
+	position: absolute;
+	right: -10%;
+	top: 5rem;
+	transform: translateX(50%);
+	z-index: -1;
+	width: 577px;
+	height: 180px;
+	background-color: var(--blue);
+	border-radius: 10em;
+}
+
+@media (min-width: 576px) {
+	.header__hero img {
+		max-width: 410px;
+	}
+
+	.header__info h1 {
+		font-size: 3.2rem;
+	}
+
+	.header__info p {
+		font-size: 1.6rem;
+	}
+
+	.header__info-actions {
+		gap: 24px;
+	}
+
+	.figure {
+		right: 15%;
+		top: 8rem;
+		height: 220px;
+	}
+}
+
+@media (min-width: 768px) {
+	.header__wrapper {
+		flex-direction: row;
+		align-items: center;
+		justify-content: space-between;
+		gap: 32px;
+	}
+
+	.header__hero {
+		order: 1;
+		margin-bottom: 0;
+	}
+
+	.header__hero img {
+		min-width: 310px;
+		max-width: 450px;
+	}
+
+	.header__info {
+		max-width: 400px;
+		text-align: left;
+	}
+
+	.header__info h1 {
+		font-size: 3.6rem;
+	}
+
+	.header__info-actions {
+		justify-content: flex-start;
+		gap: 16px;
+	}
+
+	.figure {
+		right: -5%;
+		top: 8rem;
+		height: 170px;
+	}
+}
+
+@media (min-width: 850px) {
+	.figure {
+		right: 0%;
+		top: 6rem;
+		height: 220px;
+	}
+}
+
+@media (min-width: 920px) {
+	.figure {
+		top: 7rem;
+		height: 250px;
+	}
+}
+
+@media (min-width: 1150px) {
+	.figure {
+		top: 8rem;
+		height: 300px;
+	}
+}
+
+@media (min-width: 992px) {
+	.header__hero img {
+		min-width: 450px;
+		max-width: 574px;
+	}
+
+	.header__info {
+		min-width: 450px;
+		max-width: 540px;
+	}
+
+	.header__info h1 {
+		font-size: 4.8rem;
+	}
+
+	.header__info p {
+		font-size: 1.8rem;
+	}
+}
