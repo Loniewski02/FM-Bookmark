@@ -1,0 +1,36 @@
+:root {
+	--blue: #5267df;
+	--red: #fa5959;
+	--dark-blue: #242a45;
+	--dark-blue-shadow: rgba(25, 29, 50, 0.92);
+	--white: #fff;
+	--grey: #9194a2;
+	--light-grey: #f7f7f7;
+	--shadow: rgba(73, 93, 207, 0.2);
+}
+
+*,
+*::after,
+*::before {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+html {
+	font-size: 62.5%;
+	scroll-behavior: smooth;
+	-webkit-scroll-behavior: smooth;
+}
+
+body {
+	background-color: var(--bg-color);
+	font-family: 'Rubik', sans-serif;
+	font-size: 1.6rem;
+	min-height: 100vh;
+	/* overflow-x: hidden; this does't work on mobile */
+}
+
+main {
+	padding: 3rem 0 8rem;
+}

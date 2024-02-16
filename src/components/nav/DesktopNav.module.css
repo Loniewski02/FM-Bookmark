@@ -1,0 +1,50 @@
+.nav__items {
+	display: flex;
+	align-items: center;
+	gap: 32px;
+}
+
+.nav__items a {
+	padding: 0.5rem;
+	position: relative;
+	color: var(--dark-blue);
+	font-size: 1.3rem;
+	font-weight: 400;
+	line-height: 130%;
+	transition: color 0.3s;
+}
+
+.nav__items a:hover {
+	color: var(--red);
+}
+
+.nav__items a::after,
+.nav__items a::before {
+	content: '';
+	position: absolute;
+	bottom: 0;
+	height: 2px;
+	width: 0;
+	background-color: var(--red);
+	transition: width 0.3s;
+}
+
+.nav__items a::after {
+	right: 50%;
+}
+
+.nav__items a::before {
+	left: 50%;
+}
+
+.nav__items a:hover::after,
+.nav__items a:hover::before {
+	width: 45%;
+}
+
+.nav__items button,
+.nav__items a {
+	letter-spacing: 1.5px;
+	text-transform: uppercase;
+	text-decoration: none;
+}
