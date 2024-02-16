@@ -33,7 +33,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Solution URL: [https://www.frontendmentor.io/solutions/bookmark-landing-page-kaQHf6Bt_5](https://www.frontendmentor.io/solutions/bookmark-landing-page-kaQHf6Bt_5)
 - Live Site URL: [https://fm-bookmark.vercel.app/](https://fm-bookmark.vercel.app/)
 
 ## My process
